@@ -5,4 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-locations = Location.create([{location: 'Atlanta'}, {location: 'Austin'}, {location: 'Boston'}, {location: 'Chicago'}, {location: 'Los Angeles'}, {location: 'New York'}, {location: 'San Francisco'}, {location: 'Seattle'}, {location: 'Washington DC'}])
+locations = Location.create([{location: 'Atlanta', picture: 'http://www.doityourselftermitecontrol.com/images/Atlanta.jpg'}, 
+	{location: 'Austin', picture: ''}, 
+	{location: 'Boston', picture: ''}, 
+	{location: 'Chicago', picture: ''}, 
+	{location: 'Los Angeles', picture: ''}, 
+	{location: 'New York', picture: ''}, 
+	{location: 'San Francisco', picture: ''}, 
+	{location: 'Seattle', picture: ''}, 
+	{location: 'Washington DC', picture: ''}])
