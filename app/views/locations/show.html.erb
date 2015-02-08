@@ -1,1 +1,11 @@
 <h1><%= @location.location %></h1>
+
+<%= link_to "Write a post", new_location_post_path(@location)%>
+
+<% @posts.each do |post| %>
+<% if post.location_id == @location.id %>
+
+	<br><%= post.name %>
+	<br><%= post.contact %>
+	<%end%>
+<% end %>

@@ -1,0 +1,7 @@
+<%= form_for @post, url: {action: "create"} do |post| %>
+Name: <%= post.text_field :name %><br>
+Contact info: <%= post.text_field :contact %><br>
+About me: <%= post.text_field :about_me %><br>
+Housing Preference: <%= post.text_field :name %><br>
+<%= post.submit %>
+<% end %>

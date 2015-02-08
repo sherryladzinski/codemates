@@ -5,5 +5,7 @@ class LocationsController < ApplicationController
 
 	def show
 		@location = Location.find(params[:id])
+		@posts = Post.all
+		# @post = Post.find(params[:location_id])
 	end
 end

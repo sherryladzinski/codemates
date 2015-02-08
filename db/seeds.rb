@@ -14,3 +14,5 @@ locations = Location.create([{location: 'Atlanta', picture: 'http://www.doityour
 	{location: 'San Francisco', picture: ''}, 
 	{location: 'Seattle', picture: ''}, 
 	{location: 'Washington DC', picture: ''}])
+
+posts = Post.create(name: 'Bob', contact: 'email', about_me: 'fun', location_id: 1, user_id: 1)
