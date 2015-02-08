@@ -1,7 +1,9 @@
-
+<div class="location-page">
 <h1> Pick a Location </h1>
 
 <% @locations.each do |l|%>
+<div class="cities"><%= link_to l.location,  location_path(id: l.id) %></div>
 <%= image_tag l.picture %>
-<%= link_to l.location,  location_path(id: l.id) %><br>
+
 <% end %>
+</div>

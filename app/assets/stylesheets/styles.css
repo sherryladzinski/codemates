@@ -1,4 +1,75 @@
+.cities a{
+	font-size: 20px;
+	font-family: arial;
+	text-decoration: none;
+}
+
 .main-page {
 	background: url("https://s3.amazonaws.com/uploads.hipchat.com/39979/1381817/4sP25uoBYxUnhLT/IMG_1077_v2.jpg") center center no-repeat fixed;
 	background-size: cover;
 }
+
+.main {
+	color: white;
+	position: center center fixed;
+	padding: 70px;
+}
+
+.location-page {
+	width: 900px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 50px;
+}
+
+.post-page {
+	width: 900px;
+	margin: 0px auto;
+	padding: 50px;
+}
+
+.navbar-link {
+	color: blue;
+	text-decoration: none;
+	padding-right: 20px;
+	font-size: 20px;
+}
+
+.navbar-text {
+	padding-right: 30px;
+	float: right;
+}
+
+body img {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 30px 0px 50px 0px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+	padding: 70px 0px 0px 0px;
+}
+
+.post-link {
+	text-align: center;
+}
+
+.user-signin-signup {
+	width: 500px;
+	margin: 0px auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.field {
+	padding: 5px;
+}
+

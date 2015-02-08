@@ -1,6 +1,7 @@
+<div class="post-page">
 <h1><%= @location.location %></h1>
 
-<%= link_to "Write a post", new_location_post_path(@location)%>
+<div class="post-link"><%= link_to "Write a post", new_location_post_path(@location)%></div>
 
 <% @posts.each do |post| %>
 <% if post.location_id == @location.id %>
@@ -11,3 +12,4 @@
 	<br><%= post.housing_preference %>
 	<%end%>
 <% end %>
+</div>

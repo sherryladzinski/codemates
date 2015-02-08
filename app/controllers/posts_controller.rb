@@ -20,7 +20,7 @@ class PostsController < ApplicationController
       			if @post.save
         			redirect_to location_path(@post.location_id)
       			else
-        			flash[:notice]="You must select a rating to submit a review"
+        			flash[:notice]="You must fill in the information"
         			redirect_to(:back)
       			end
     	else
